@@ -258,6 +258,9 @@ Note: It was suggested by ServiceNow support to add table "http_connection" in c
 ### Avoid using alert() in client scripts
 It is recommended to use an OOB library for modals in order to improve the user experience instead of alert().
 
+### Use GlideRecordSecure instead of GlideRecord API for CCSI
+Use GlideRecordSecure API to ensure the security checks are performed and unauthorized access of data is prevented as it will automatically enforce ACLs.
+
 # Additional resources
 
 Please check these additional links for more information and details:
